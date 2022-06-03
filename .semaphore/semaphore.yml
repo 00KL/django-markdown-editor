@@ -36,8 +36,7 @@ blocks:
             - python manage.py test
         - name: Deploy checklist
           commands:
-            - cd martor_demo
-            - python menage.py check --deploy
+            - python manage.py check --deploy
         - name: Style
           commands:
             - pip install flake8
