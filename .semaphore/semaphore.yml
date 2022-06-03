@@ -31,9 +31,9 @@ blocks:
       jobs:
         - name: Unit Tests
           commands:
-            - python menage.py makemigrations
-            - python menage.py migrate
-            - python menage.py test
+            - python manage.py makemigrations
+            - python manage.py migrate
+            - python manage.py test
         - name: Deploy checklist
           commands:
             - cd martor_demo
