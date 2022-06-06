@@ -71,7 +71,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'martor_demo.urls'
 
-CSRF_TRUSTED_ORIGINS = ['https://*.mydomain.com', 'https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://*.mydomain.com' , 'https://*.127.0.0.1']
 
 TEMPLATES = [
     {
